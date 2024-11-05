@@ -2,7 +2,7 @@
 
 Welcome to our NavLink Blue Developer's Guide (SDK) on GitHub. This guide is intended to help developers quickly get to grips with our NavLink Blue Low Energy Wireless NMEA2000 Gateway and implement it within their Apps.
 <br>
-<img src="https://github.com/digitalyacht/NavLink-Blue/blob/master/Images/NavLinkBlue_with_cable_on_White.jpg" width=70%>
+<img src="https://github.com/digitalyacht/NavLink-Blue/blob/main/Images/NAVLinkBlue_with_cable_on_White.jpg" width=70%>
 <br>
 The NavLink Blue NMEA2000 Gateway is designed to allow an Application Developer to support bi-directional communication with an NMEA2000 network, through simple serial messages. Any individual or company that wishes to integrate NavLink Blue will need as a minimum the NMEA2000 Appendix A+B which is available from [http://nmea.org](http://nmea.org) for both NMEA members and non-members.
 
