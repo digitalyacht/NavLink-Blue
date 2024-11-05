@@ -1,4 +1,4 @@
-# NavLink 2
+# NavLink Blue
 
 Welcome to our NavLink Blue Developer's Guide (SDK) on GitHub. This guide is intended to help developers quickly get to grips with our NavLink Blue Low Energy Wireless NMEA2000 Gateway and implement it within their Apps.
 <br>
@@ -8,7 +8,7 @@ The NavLink Blue NMEA2000 Gateway is designed to allow an Application Developer 
 
 NavLink Blue is based on our existing NAVLink2 and iKonvert wired NMEA2000 gateways and they share the exact same serial protocol, so once you support one device, supporting the others is easy.
 
-<img src="https://github.com/digitalyacht/NavLink2/blob/master/Images/NavLink2_RAW_View_Data.gif" width=70%>
+<img src="https://github.com/digitalyacht/NavLink2/blob/master/Images/Data_Monitor.png" width=70%>
 
 Included in this repository are:-
 
