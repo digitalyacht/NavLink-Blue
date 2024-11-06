@@ -3,6 +3,8 @@
 ## Overview
 **NAVLink Blue** is a Bluetooth Low Energy (BLE) device that connects the NMEA 2000 (CAN BUS) network to Bluetooth clients in a full-duplex mode. It allows seamless data transfer, configuration, and diagnostics between marine electronics and compatible applications.
 
+In order to receive and transmit NMEA 2000 data, you will need to understand the binary data format of the PGNs. This information is available from the NMEA organisation in Appendix A+B of the NMEA 2000 specification that can be purchased online at [https://nmea.org](https://nmea.org)
+
 ## Features
 - **BLE Characteristics**:
   - `ABF2`: Streams NMEA 2000 data and receives data from clients.
@@ -17,7 +19,7 @@
 - **Service UUID**: `ABF0`
 - **Characteristics**:
   - `ABF2`:
-    - Streams NMEA 2000 data via notifications in a RAW protocol format.
+    - Streams NMEA 2000 data via notifications in [Digital Yacht's RAW protocol format](https://github.com/digitalyacht/iKonvert/wiki/4.-Serial-Protocol).
     - Receives data from the client via Write operations and forwards it to the bus.
   - `ABF3`: Command channel for configuring filters and setting sample rates.
   - `ABF4`: Low sample rate notifications for battery-efficient applications and boat monitoring.
@@ -32,7 +34,7 @@
 - **Connectable** : YES
 
 ### Switching Between Bluetooth and Wi-Fi
-Our gateway can be switched to a Wi-Fi mode like a lot of our product. This Wifi mode can be used to perform software updates, debug the NMEA network and configure filters.  
+By default NAVLink Blue operates in Bluetooth mode, but it can be easily switched to operate in Wi-Fi mode. This Wifi mode can be used to perform software updates, debug the NMEA network and configure filters.  
 1. **Switch Mode**: Hold the reset button for 5 seconds. LEDs will light up in sequence to indicate the switch.
 2. **Wi-Fi Mode Details**:
    - Network: `SSID: NAVLinkBlue-XXXX`
