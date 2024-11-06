@@ -48,11 +48,13 @@ Our gateway can be switched to a Wi-Fi mode like a lot of our product. This Wifi
 ### Receiving NMEA Data
 - Subscribe to notifications from `ABF2`, and the server will send NMEA 2000 data to the client in **RAW protocol format** (Base64-encoded). 
 - -Some filters can be applied to the data so the client will only receive certain PGN. The sample rate is the same for all of the data sent and will use the last NMEA Message received if a PGN has a higher sample rate than what you have chosen. 
-- [TX PGN Format](https://github.com/digitalyacht/iKonvert/wiki/4.-Serial-Protocol#42-tx-pgn-sentence)
+
+
+- [RX PGN Format](https://github.com/digitalyacht/iKonvert/wiki/4.-Serial-Protocol#41-rx-pgn-sentence)
 ### Sending Data to NMEA 2000
 1. To send data from a client to the NAVLink Blue server, write data to the `ABF2` characteristic using a BLE write operation.This will transfer the data from the client to the NAVLink Blue device. The device will then process this data and, if applicable, send it to the NMEA 2000 CAN Bus.
 2. This data must be formatted in **RAW protocol** for compatibility with the NMEA 2000 CAN Bus.
-- [RX PGN Format](https://github.com/digitalyacht/iKonvert/wiki/4.-Serial-Protocol#41-rx-pgn-sentence)
+- [TX PGN Format](https://github.com/digitalyacht/iKonvert/wiki/4.-Serial-Protocol#42-tx-pgn-sentence)
 
 You can use the Light Blue App to write on the ABF2 characteristic and send the data to the bus:
 
