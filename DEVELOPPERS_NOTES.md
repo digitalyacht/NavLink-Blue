@@ -54,8 +54,10 @@ Our gateway can be switched to a Wi-Fi mode like a lot of our product. This Wifi
 2. This data must be formatted in **RAW protocol** for compatibility with the NMEA 2000 CAN Bus.
 - [RX PGN Format](https://github.com/digitalyacht/iKonvert/wiki/4.-Serial-Protocol#41-rx-pgn-sentence)
 
-You can use the Light Blue App to write on the ABF2 characteristic and send the data to the bus :
-![image](https://github.com/user-attachments/assets/54b5b856-b369-4deb-a00a-8488c90b531d)
+You can use the Light Blue App to write on the ABF2 characteristic and send the data to the bus:
+
+| ![Light Blue App example](https://github.com/user-attachments/assets/54b5b856-b369-4deb-a00a-8488c90b531d) | **Creating a Message:**<br>The message is made as described in our Serial Protocol RX Sentence. First start with !PDGY followed by the PGN Number and the destination Address. The NMEA2000 data is then encoded in base64 and sent|
+|---|---|
 
 
 
