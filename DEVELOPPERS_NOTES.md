@@ -61,6 +61,7 @@ You can use the Light Blue App to write on the ABF2 characteristic and send the 
 | ![Light Blue App example](https://github.com/user-attachments/assets/54b5b856-b369-4deb-a00a-8488c90b531d) | **Creating a Message:**<br>The message is made as described in our Serial Protocol RX Sentence. First start with !PDGY followed by the PGN Number and the destination Address. The NMEA2000 data is then encoded in base64 and sent|
 |---|---|
 
+![image](https://github.com/user-attachments/assets/3104a793-373c-4861-9df1-5b17621ddfd2)
 
 
 ## Command Structure via `ABF3`
