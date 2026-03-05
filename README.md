@@ -141,6 +141,8 @@ List of supported PGN by the BLE connection {59392,59904,60160,60416,60928,65240
       
 Please contact us if you wish to add new PGN.
 
+Note that a device reset using the reset button will also reset the filters 
+
 ## NMEA RAW Protocol Notes
 
 - RX to app (notifications from ABF2): `!PDGY,...` sentences
