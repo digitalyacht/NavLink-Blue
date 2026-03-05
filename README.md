@@ -148,3 +148,15 @@ Please contact us if you wish to add new PGN.
 
 For binary PGN field definitions, refer to NMEA 2000 Appendix A/B from NMEA.
 
+
+## OTA Update 
+
+OTA Updates files are in the ZIP Folder 
+
+Upload first file from the unzipped file that end by F in the settings page 
+Upload second file that end with S in the settings page 
+
+Firmware version in the settings page should be 2.00
+
+
+
