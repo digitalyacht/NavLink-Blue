@@ -140,6 +140,7 @@ List of supported PGN by the BLE connection {59392,59904,60160,60416,60928,65240
 			128776,128777,128778,126720};
       
 Please contact us if you wish to add new PGN.
+You can reset all filters (No filtering at all) by sending $PDGY,RESET_FILTERS
 
 Note that a device reset using the reset button will also reset the filters 
 
